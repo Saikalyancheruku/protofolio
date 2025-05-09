@@ -41,7 +41,7 @@ interface SkillCategory {
 
             <p>
               My approach combines clean code principles with creative problem-solving to build
-              scalable and maintainable applications. I'm constantly learning and adapting to new technologies
+              scalable and maintainable applications. I am constantly learning and adapting to new technologies
               to stay at the forefront of web development.
             </p>
             
