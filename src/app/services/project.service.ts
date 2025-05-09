@@ -40,7 +40,7 @@ export class ProjectService {
 
       description: 'A frontend application that allows users to customize dashboards by inputting prompts, integrated with a ChatGPT model to generate queries, and visualized with ECharts.',
 
-      imageUrl: 'https://sdmntprwestus2.oaiusercontent.com/files/00000000-b524-61f8-8508-24652b82536f/raw?se=2025-05-09T03%3A21%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=30ec2761-8f41-44db-b282-7a0f8809659b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-08T13%3A53%3A48Z&ske=2025-05-09T13%3A53%3A48Z&sks=b&skv=2024-08-04&sig=XgcgaEc/KdO1eDM6zu6j4hogWcbhbJL1ZES11zf/Tvs%3D',
+      imageUrl: 'https://res.cloudinary.com/dhe5ecust/image/upload/v1746782849/PromptBoard_Logo_Design_eocqnv.png',
       categories: ['Web', 'Frontend', 'AI', 'Dashboard'],
 
       technologies: ['Angular', 'Node.js', 'MySQL', 'ChatGPT', 'ECharts'],
@@ -51,7 +51,7 @@ export class ProjectService {
       id: 4,
       title: 'Email Generator/Extractor',
       description: 'A Chrome extension that generates email subjects and bodies using TinyLlama AI models. Helps automate email composition in Gmail and Outlook.',
-      imageUrl: 'https://sdmntprwestus2.oaiusercontent.com/files/00000000-1750-61f8-998e-1a68be23dd5a/raw?se=2025-05-09T03%3A25%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=30ec2761-8f41-44db-b282-7a0f8809659b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-08T12%3A13%3A14Z&ske=2025-05-09T12%3A13%3A14Z&sks=b&skv=2024-08-04&sig=N8LdioCMxvKK7jZAdO6Cjq74WtF33J1%2B7isstMCmZy8%3D',
+      imageUrl: 'https://res.cloudinary.com/dhe5ecust/image/upload/v1746782850/Email_Extractor_Logo_Design_ebqe43.png',
       categories: ['Chrome Extension', 'AI', 'Productivity'],
       technologies: ['JavaScript', 'TinyLlama', 'Chrome API'],
       githubUrl: 'https://github.com/Saikalyancheruku/email-generator'
@@ -60,7 +60,7 @@ export class ProjectService {
       id: 5,
       title: 'TinyDocs',
       description: 'A document-based Q&A application where users can upload documents and ask questions about them, utilizing AI to summarize and answer queries.',
-      imageUrl: 'https://sdmntprwestus2.oaiusercontent.com/files/00000000-75a4-61f8-83f6-243d0e09843e/raw?se=2025-05-09T03%3A27%3A09Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=30ec2761-8f41-44db-b282-7a0f8809659b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-09T01%3A57%3A05Z&ske=2025-05-10T01%3A57%3A05Z&sks=b&skv=2024-08-04&sig=Vh0M3KSR5iAgzdE/06oRexqexVzBdpMUzMpIfDBnA2M%3D',
+      imageUrl: 'https://res.cloudinary.com/dhe5ecust/image/upload/v1746782812/TinyDocs_Logo_on_White_Background_yhtgal.png',
       categories: ['Web', 'AI', 'Document Management'],
       technologies: ['React', 'Node.js', 'TinyLlama', 'Express'],
       githubUrl: 'https://github.com/Saikalyancheruku/TinyDocs'
@@ -77,7 +77,7 @@ export class ProjectService {
       id: 7,
       title: 'Recruitment Email-Sending App',
       description: 'A Node.js application that sends recruitment emails, utilizing Nodemailer for email composition and MySql for storage.',
-      imageUrl: 'https://sdmntprwestus2.oaiusercontent.com/files/00000000-f51c-61f8-96e4-c05b76519ab1/raw?se=2025-05-09T03%3A29%3A07Z&sp=r&sv=2024-08-04&sr=b&scid=00000000-0000-0000-0000-000000000000&skoid=30ec2761-8f41-44db-b282-7a0f8809659b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-09T01%3A57%3A04Z&ske=2025-05-10T01%3A57%3A04Z&sks=b&skv=2024-08-04&sig=Fbn8UhKuWrCNnesQ2Nu4hymYihcz%2B4sVWROJRtT2SB0%3D',
+      imageUrl: 'https://res.cloudinary.com/dhe5ecust/image/upload/v1746782785/Recruitment_Email_App_Logo_w1z076.png',
       categories: ['Backend', 'Productivity', 'Business'],
       technologies: ['Node.js', 'Nodemailer', 'MySQL'],
       githubUrl: 'https://github.com/Saikalyancheruku/recruitment-email'
