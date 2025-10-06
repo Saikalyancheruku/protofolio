@@ -168,12 +168,19 @@ export class TimelineComponent {
 
   timelineItems: TimelineItem[] = [
     {
-      date: '2023 - Present',
-      title: 'Software Engineer',
-      company: 'Dynamatix Analytics Pvt Ltd',
-      description: 'Working on full-stack development using Angular, Spring Boot, and various other technologies. Leading the development of enterprise applications and implementing best practices.',
-      type: 'work'
-    },
+  date: '2025 - Present',
+  title: 'Software Engineer',
+  company: 'Qentelli Solutions Pvt Ltd',
+  description: 'Developing and maintaining enterprise-grade applications using .NET 8, Angular, Spring Boot, and AWS. Implementing clean architecture, building scalable APIs, and optimizing backend workflows for high-performance systems.',
+  type: 'work'
+},
+{
+  date: '2023 - 2025',
+  title: 'Software Engineer',
+  company: 'Dynamatix Analytics Pvt Ltd',
+  description: 'Built and enhanced enterprise applications with Angular, Spring Boot, and cloud services. Focused on backend optimization, API development, and delivering robust, maintainable solutions for complex business requirements.',
+  type: 'work'
+},
     {
       date: '2019 - 2022',
       title: 'Bachelor of Technology',

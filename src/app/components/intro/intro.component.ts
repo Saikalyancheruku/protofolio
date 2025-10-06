@@ -8,25 +8,27 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
   standalone: true,
   imports: [CommonModule, FontAwesomeModule],
   template: `
-    <section class="intro">
-      <div class="container">
-        <div class="intro-content">
-          <h1 class="animate-item">Hello, I'm <span class="highlight">Kalyan Cheruku</span></h1>
-          <h2 class="profession animate-item"> Full Stack Developer</h2>
-          <p class="description animate-item">Solving Real-World Problems Through Code</p>
-          
-          <div class="action-buttons animate-item">
-            <a href="#projects" class="btn-primary">View My Work</a>
-            <a href="#contact" class="btn-outline">Contact Me</a>
-          </div>
-        </div>
-      </div>
+   <section class="intro">
+  <div class="container">
+    <div class="intro-content">
+      <h1 class="animate-item">Hello, I'm <span class="highlight">Kalyan Cheruku</span></h1>
+      <h2 class="profession animate-item">Building Enterprise Applications with Solid Frameworks</h2>
+      <p class="description animate-item">
+        I help teams design and implement robust backend systems using <strong>.NET 8, Spring Boot, AWS</strong>, and clean architecture principles. Turning complex business requirements into efficient, maintainable solutions.
+      </p>
       
-      <a href="#about" class="scroll-down">
-        <span>Scroll Down</span>
-        <fa-icon [icon]="faArrowDown" class="scroll-icon"></fa-icon>
-      </a>
-    </section>
+      <div class="action-buttons animate-item">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Hire Me / Contact</a>
+      </div>
+    </div>
+  </div>
+  
+  <a href="#about" class="scroll-down">
+    <span>Scroll Down</span>
+    <fa-icon [icon]="faArrowDown" class="scroll-icon"></fa-icon>
+  </a>
+</section>
   `,
   styles: [`
     .intro {
@@ -34,8 +36,9 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
       display: flex;
       align-items: center;
       position: relative;
-      background: linear-gradient(135deg, var(--primary-900) 0%, var(--secondary-900) 100%);
-      color: white;
+    
+             background: linear-gradient(135deg, var(--primary-900) 0%, var(--secondary-900) 100%);
+     color: white;
     }
     
     .intro-content {

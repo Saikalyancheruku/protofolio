@@ -23,55 +23,56 @@ interface SkillCategory {
   imports: [CommonModule, FontAwesomeModule],
   template: `
     <section id="about" class="section">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
+        <div class="container">
+    <h2 class="section-title">About Me</h2>
+    
+    <div class="about-content">
+      <div class="about-image-container">
+        <div class="about-image">
+          <img src="assets/sai_kalyan_cheruku.png" alt="Profile picture">
+        </div>
+      </div>
+      
+      <div class="about-text">
+        <h3>Who I Am</h3>
+        <p>
+          I’m <strong>Kalyan Cheruku</strong>, a software engineer building **scalable enterprise applications** using <strong>.NET 8, Spring Boot, AWS</strong>, and **Angular**. I specialize in backend development, clean architecture, and cloud-integrated systems, delivering solutions that are secure, maintainable, and high-performing.
+        </p>
+        <p>
+          I focus on solving complex business problems, optimizing existing systems, and turning requirements into efficient, production-ready applications. With hands-on experience across diverse industries, I bring innovation and technical excellence to every project.
+        </p>
+        <p>
+          I am currently open to **freelance and contract opportunities**. Whether you need help modernizing legacy systems, building APIs, or integrating cloud services, I can step in and deliver results efficiently.
+        </p>
         
-        <div class="about-content">
-          <div class="about-image-container">
-            <div class="about-image">
-<img src="assets/sai_kalyan_cheruku.png" alt="Profile picture">
- </div>
-          </div>
-          
-          <div class="about-text">
-            <h3>Who I Am</h3>
-            <p>I’m a passionate Software Engineer with expertise in full-stack development, leveraging modern technologies to create high-performing, scalable applications. I specialize in backend development using Java, Spring Boot, and Node.js, while also crafting dynamic and intuitive frontend experiences with Angular. With hands-on experience in both cloud environments and high-availability systems, I ensure that my applications are secure, efficient, and easy to maintain.</p>
-
-<p>I am driven by solving complex problems, optimizing systems, and continuously learning to stay at the forefront of software development. From project management tools to AI-powered applications, I bring innovative solutions to every project I undertake, focusing on clean code principles and user-centric design.</p>
-
-            <p>
-              My approach combines clean code principles with creative problem-solving to build
-              scalable and maintainable applications. I am constantly learning and adapting to new technologies
-              to stay at the forefront of web development.
-            </p>
-            
-            <div class="highlights">
-              <div class="highlight-item">
-                <fa-icon [icon]="faCheck" class="highlight-icon"></fa-icon>
-                <div>
-                  <h4>2+ Years Experience</h4>
-                  <p>Working with diverse technologies and teams</p>
-                </div>
-              </div>
-              <div class="highlight-item">
-                <fa-icon [icon]="faCheck" class="highlight-icon"></fa-icon>
-                <div>
-                  <h4>10+ Projects Completed</h4>
-                  <p>Delivering solutions for various industries</p>
-                </div>
-              </div>
-              <div class="highlight-item">
-                <fa-icon [icon]="faCheck" class="highlight-icon"></fa-icon>
-                <div>
-                  <h4>Continuous Learner</h4>
-                  <p>Always expanding my skill set in backend technologies, AI models, and cutting-edge frontend frameworks.</p>
-                </div>
-              </div>
+        <div class="highlights">
+          <div class="highlight-item">
+            <fa-icon [icon]="faCheck" class="highlight-icon"></fa-icon>
+            <div>
+              <h4>2+ Years Experience</h4>
+              <p>Working on enterprise-grade applications and complex backend systems</p>
             </div>
-            
-            <a href="assets/sai_kalyan_resume.pdf" class="btn-primary download-resume">Download Resume</a>
+          </div>
+          <div class="highlight-item">
+            <fa-icon [icon]="faCheck" class="highlight-icon"></fa-icon>
+            <div>
+              <h4>10+ Projects Completed</h4>
+              <p>Delivering solutions for diverse industries, from finance to healthcare</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <fa-icon [icon]="faCheck" class="highlight-icon"></fa-icon>
+            <div>
+              <h4>Freelance Ready</h4>
+              <p>Available for remote freelance projects and short-term contracts</p>
+            </div>
           </div>
         </div>
+        
+        <a href="assets/sai_kalyan_resume.pdf" class="btn-primary download-resume">Download Resume</a>
+      </div>
+    </div>
+  
         
         <div class="skills-section">
           <h3 class="skills-title">My Skills</h3>
@@ -311,56 +312,61 @@ export class AboutComponent {
   
   
   skillCategories: SkillCategory[] = [
-    {
-      title: 'Frontend Development',
-      icon: this.faCode,
-      skills: [
-        { name: 'HTML5', level: 95 },
-        { name: 'CSS3', level: 90 },
-        { name: 'JavaScript', level: 90 },
-        { name: 'TypeScript', level: 90 },
-        { name: 'Angular', level: 95 },
-        { name: 'PrimeNG', level: 85 },
-        { name: 'Bootstrap', level: 80 }
-      ]
-    },
-    {
-      title: 'Backend Development',
-      icon: this.faServer,
-      skills: [
-        { name: 'Spring Boot', level: 90 },
-        { name: 'Java', level: 90 },
-        { name: 'Node.js', level: 80 },
-        { name: 'REST APIs', level: 90 },
-        { name: 'Microservices', level: 85 }
-      ]
-    },
-    {
-      title: 'Databases & DevOps',
-      icon: this.faDatabase,
-      skills: [
-        { name: 'PostgreSQL', level: 90 },
-        { name: 'MySQL', level: 85 },
-        { name: 'MongoDB', level: 75 },
-        { name: 'Oracle SQL', level: 80 },
-        { name: 'Docker', level: 80 },
-        { name: 'CI/CD', level: 75 },
-        { name: 'Git', level: 90 },
-        { name: 'Linux', level: 75 }
-      ]
-    },
-    {
-      title: 'Tools & Others',
-      icon: this.faTools,
-      skills: [
-        { name: 'Jenkins', level: 70 },
-        { name: 'Postman', level: 85 },
-        { name: 'Swagger', level: 80 },
-        { name: 'GitHub', level: 90 },
-        { name: 'ClickUp', level: 85 },
-        { name: 'Jira', level: 80 }
-      ]
-    }
-  ];
+  {
+    title: 'Frontend Development',
+    icon: this.faCode,
+    skills: [
+      { name: 'HTML5', level: 95 },
+      { name: 'CSS3', level: 90 },
+      { name: 'JavaScript', level: 90 },
+      { name: 'TypeScript', level: 90 },
+      { name: 'Angular', level: 95 },
+      { name: 'PrimeNG', level: 85 },
+      { name: 'Bootstrap', level: 80 }
+    ]
+  },
+  {
+    title: 'Backend Development',
+    icon: this.faServer,
+    skills: [
+      { name: '.NET 8', level: 95 },
+      { name: 'C#', level: 95 },
+      { name: 'Entity Framework Core', level: 90 },
+      { name: 'Spring Boot', level: 90 },
+      { name: 'Java', level: 90 },
+      { name: 'Node.js', level: 80 },
+      { name: 'REST APIs', level: 90 },
+      { name: 'Microservices', level: 85 },
+      { name: 'AWS (Lambda, SQS, SNS)', level: 85 }
+    ]
+  },
+  {
+    title: 'Databases & DevOps',
+    icon: this.faDatabase,
+    skills: [
+      { name: 'PostgreSQL', level: 90 },
+      { name: 'MySQL', level: 90 },
+      { name: 'MongoDB', level: 75 },
+      { name: 'Oracle SQL', level: 80 },
+      { name: 'Docker', level: 80 },
+      { name: 'CI/CD', level: 75 },
+      { name: 'Git', level: 90 },
+      { name: 'Linux', level: 75 }
+    ]
+  },
+  {
+    title: 'Tools & Others',
+    icon: this.faTools,
+    skills: [
+      { name: 'Jenkins', level: 70 },
+      { name: 'Postman', level: 85 },
+      { name: 'Swagger', level: 80 },
+      { name: 'GitHub', level: 90 },
+      { name: 'ClickUp', level: 85 },
+      { name: 'Jira', level: 80 }
+    ]
+  }
+];
+
   
 }
